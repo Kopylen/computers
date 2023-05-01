@@ -44,31 +44,23 @@ ul li a{
     transition: 0.5s ease;
 }
 #bt a{
-	color: #808080;
+	color: #3032D0;
     text-decoration: none;
     text-transform: uppercase;
     padding: 1%;
     font-size: 20px;
     font-weight: 800;
-    transition: 0.5s ease;
-    border: #808080 solid;
+    border: #3032D0 solid;
     border-radius: 12px;
     border-width: 4px;
 }
-#bt:hover{
-	border-color: #3032D0;
-	color: #3032D0;
-}
-
 .btnn a {
     color: #808080;
     text-decoration: none;
-    text-transform: uppercase;
     padding: 1%;
     font-size: 20px;
     font-family: "Montserrat", monospace;
     font-weight: 800;
-    transition: 0.5s ease;
     border: #808080 solid;
     border-radius: 12px;
     border-width: 4px;
@@ -79,23 +71,53 @@ ul li a{
     justify-content: center;
     gap: 3%;
 }
-.tg:hover {
+#uu{
+	background-color: #fff;
+	position: absolute;
+	right: 1000px;
+}
+#u1{
+	background-color: #fff;
+	position: absolute;
+	right: 667px;
+}
+#u2{
+	background-color: #fff;
+	position: absolute;
+	right: 289px;
+}
+#u3{
+	background-color: #fff;
+	position: absolute;
+	right: 1000px;
+}
+#u4{
+	background-color: #fff;
+	position: absolute;
+	right: 667px;
+}
+#u5{
+	background-color: #fff;
+	position: absolute;
+	right: 289px;
+}
+#tg{
     border-color: #24A2E0;
     color: #24A2E0;
 }
-.inst:hover {
+#inst{
     color: #AD3B8D;
     border-color: #AD3B8D;
 }
-.gh:hover {
+#gh{
     color: #161B22;
     border-color: #161B22;
 }
 #bt{
-	border: solid black;
+	border: solid #3032D0;
 	border-radius: 11px;
 	text-decoration: none;
-	color: black;
+	color: #3032D0;
 	padding: 8px;
 	transition: #800080 0.3s ease;
 }
@@ -105,6 +127,7 @@ ul li a{
 	margin: 20px;
 	max-width: 300px;
 	padding: 20px;
+
 }
 .conteiner{
 	margin: 20px auto;
@@ -113,6 +136,7 @@ ul li a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	position: realitive;
 }
 .con{
 	margin-left: 120px;
