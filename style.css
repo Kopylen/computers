@@ -177,3 +177,27 @@ form{
 	text-decoration: none;
 	color: white;
 }
+@media only screen and (max-width: 700px) {
+   .menu-icon {
+    display: block;
+    cursor: pointer;
+    font-size: 25px;
+    margin-right: 2px;
+   }
+   .menu {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+   }
+
+   .menu.open {
+    max-height: 500px;
+   }
+   .menu a {
+    display: block;
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+   }
