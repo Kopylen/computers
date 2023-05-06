@@ -5,16 +5,24 @@
 		<title>Компьютер таңдау!</title>
 		<meta charset="UTF-8">
 	</head>
-	<div id="pp">
-		<body>
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="us.html">Shop</a></li>
-					<li><a href="bs.html">Contact</a></li>
-				</ul>
-			</nav>
-		</body>
+	<div class="menu">
+		<div id="pp">
+			<body>
+				<p><span class="menu-icon">&#9776;</span></p>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="us.html">Shop</a></li>
+						<li><a href="bs.html">Contact</a></li>
+					</ul>
+				</nav>
+				<script>
+	  document.querySelector('.menu-icon').addEventListener('click', function() {
+	   document.querySelector('.menu').classList.toggle('open');
+	  });
+	 			</script>
+			</body>
+		</div>
 	</div>
 	<div id="po">
 			<h1>Бізбен байланыс: </h1>
