@@ -44,10 +44,6 @@ Javascript, HTML, CSS...
 Python, C++ және python-нан kivy,pygame,tkinter framework тар арқылы кішігірім программа жасайм
 
 
-## Мен туралы толық мәлімет
-
-
-[Awesome README](https://github.com/)
 
 
 ## 🔗 Links
